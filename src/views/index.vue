@@ -29,12 +29,7 @@
 				// 通过 `vm` 访问组件实例
 				this.num=19
 				console.log(this.num)
-				
 			})
-			// console.log(to)
-			// console.log(from)
-			// console.log(next)
-			
 		},
 		watch:{
 			'$route'(to,from){
