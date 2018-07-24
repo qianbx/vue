@@ -3,8 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import  Bootstrap from 'bootstrap'
+
 //Vue.use(Bootstrap);
+//import $ from 'jquery'
+//import  Bootstrap from 'bootstrap'
+import './assets/bootstrap.min.css';
+//import './assets/bootstrap.min.js';
 
 import {createStore} from './store/state.js'
 Vue.config.productionTip = false;

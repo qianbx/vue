@@ -13,6 +13,49 @@
 	    <div class="clearfix visible-xs-block"></div>
 	    <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
 	</div>
+	<div class="container-fluid">
+    <!--<div class="row">
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-blue h">
+            hello1
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-red h" style="padding: 0">
+            hello2
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-blue h" style="padding: 0">
+            hello3
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-red h" style="padding: 0">
+            hello4
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-blue h" style="padding: 0">
+            hello5
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-red h" style="padding: 0">
+            hello6
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-blue h" style="padding: 0">
+            hello7
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-red h" style="padding: 0">
+            hello8
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-blue h" style="padding: 0">
+            hello9
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-red h" style="padding: 0">
+            hello10
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-blue h" style="padding: 0">
+            hello11
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-1 bg-red h" style="padding: 0">
+            hello12
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 0">
+            <img src="picture.jpg" style="width: 100%">
+        </div>
+    </div>-->
+</div>
 
 </div>
 </template>
