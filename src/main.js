@@ -12,6 +12,21 @@ import './assets/bootstrap.min.css';
 
 import {createStore} from './store/state.js'
 Vue.config.productionTip = false;
+
+//服务器请求URI通用前缀, 会匹配所有$http请求的url中"/_api"部分
+
+const URI_PRIFIX = '/index.php/wechatapp'
+
+$(document).ajaxSend((event, xhr, setting) => {
+    //setting.crossDomain = true
+    setting.url = setting.url
+        .replace(/^\/\_api\/(.+)/, URI_PRIFIX + '/$1')
+
+    
+    
+})
+
+
 const store = createStore();
 new Vue({
     el: '#app',
